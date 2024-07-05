@@ -1,0 +1,162 @@
+/* styles.css 
+*/
+
+/* Base styles for desktop */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff;
+    line-height: 1.6;
+}
+
+header {
+    background: #d21ea2;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    background: #14b4f8cd;
+    padding: 15px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 18px;
+}
+
+main {
+    padding: 20px;
+    background-color: #F6DCAC;
+    /* max-width: 1200px;                                                                    */
+    margin: 0 auto;
+    text-align: center;
+}
+
+footer {
+    background: #fb5c22;
+    color: #fff;
+    text-align: center;
+    padding: 50px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    font-size: 16px;
+    text-decoration: underline;
+}
+
+/* Media Queries for Responsiveness */
+
+/* Tablets */
+@media (max-width: 768px) {
+    body {
+        background-color: #ffebcd;
+    }
+
+    header {
+        padding: 15px;
+        font-size: 25px;
+        background:linear-gradient(45deg,violet, hotpink);
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    nav a {
+        padding: 8px 15px;
+        font-size: 16px;
+    }
+
+    main {
+        padding: 15px;
+        background-color: #fafad2;
+        max-width: 100%;
+    }
+
+    footer {
+        font-size: 14px;
+    }
+}
+
+/* Mobile devices */
+@media (max-width: 490px) {
+    body {
+        background-color: #54f954;
+    }
+
+    header {
+        padding: 10px;
+        font-size: 18px;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: center;
+        padding: 5px;
+    }
+
+    nav a {
+        padding: 5px 10px;
+        font-size: 14px;
+    }
+
+    main {
+        padding: 10px;
+        background-color: #faef8d;
+        max-width: 100%;
+    }
+
+    p {
+        display: none;
+    }
+    footer {
+        padding: 10px;
+        font-size: 12px;
+    }
+}
+@media (max-width: 330px) {
+    body {
+        background-color: #06fb06;
+    }
+
+    header {
+        padding: 10px;
+        font-size: 18px;
+    }
+
+    /* nav {
+        flex-direction: column;
+        align-items: center;
+        padding: 5px;
+    } */
+
+    nav a {
+        padding: 5px 10px;
+        font-size: 14px;
+        display: none;
+    }
+
+    main {
+        padding: 10px;
+        background-color: #faef8d;
+        max-width: 100%;
+    }
+
+    p {
+        display: none;
+    }
+    footer {
+        padding: 10px;
+        font-size: 12px;
+        display: none;
+    }
+}

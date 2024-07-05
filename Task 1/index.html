@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Webpage</title>
+    <style>
+        body {
+            position: relative;
+            background: linear-gradient(40deg, rgba(2,0,.6,1) 0%,rgba(9,9,121,1) 35%,rgba(0,212,255,1) 100% );
+            margin: 0px;
+            padding: 0px;
+            
+        }
+       
+    h2 {
+        font-size: 2.9em;
+        color: #fff;
+        text-align: center;
+        }
+    p {
+            text-align: center;
+            color: #fff;
+            padding: 40px 300px;
+            font-size: large;
+            font-weight: 300;
+        }
+    .heading {
+        font-size: 7rem; 
+        text-align: center;
+        margin: 5rem 0;
+    } 
+  
+
+    .card-container {    
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .card-container .box {  
+    
+        position: relative;
+        width: 950px;
+        height: 530px;
+        background-color: #ff0058;
+        box-shadow: 0px 0px 20px 5px #fff;
+        margin: 25px 40px; 
+        transition: 0.5s;
+    }
+    
+.card-container .box:hover {
+    
+        transform: translateY(-30px);
+
+    }
+
+    .box img {
+        width: 100%;
+        height: 100%;
+        object-fit:contain;
+        position: relative;
+    }
+
+       
+    </style>
+</head>
+<body>
+    <h1  class="heading" >Welcome to Website...</h1>
+    <h2>This is H<sub>2</sub> heading </h2>
+        <section class="projects" id="projects">
+            <div class="card-container">   
+            <div class="box">
+                <img class="image" src="./image.png" alt="">
+             </div>
+    <p>This is a paragraph introducing the content of my webpage.To build a responsive and interactive website that incorporates various front-end development techniques, from basic HTML structure to advanced APIintegration and CSS preprocessing.</p> 
+</div>
+</body>
+</html>
